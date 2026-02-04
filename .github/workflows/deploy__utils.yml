@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 18
           registry-url: 'https://registry.npmjs.org/'
+          always-auth: true
 
       - name: Install dependencies
         run: npm install
@@ -46,8 +47,6 @@ jobs:
       - name: Publish to NPM
         if: steps.check_version.outputs.changed == 'true'
         run: npm publish --workspace packages/utils --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ""
 
       - name: Create GitHub Release
         if: steps.check_version.outputs.changed == 'true'
