@@ -229,10 +229,16 @@ const GlobalSearchParamHandler = () => {
   return null;
 };
 
+const getBasename = () => {
+  // 兼容 GitHub Pages 子路径
+  // 如果路径以 /xiv-cac 开头，则使用该路径作为 basename
+  return window.location.pathname.startsWith('/xiv-cac') ? '/xiv-cac' : '/';
+};
+
 function App() {
   const { t } = useTranslation();
   return (
-    <Router>
+    <Router basename={getBasename()}>
       <GlobalSearchParamHandler />
       <div className="min-h-screen pt-16 flex flex-col">
         <Navbar />
