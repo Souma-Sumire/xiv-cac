@@ -101,8 +101,8 @@ Le paquet inclut un support TypeScript complet. Les types principaux sont :
 ## Développement & Contribution
 
 ### Environnement
- - Node.js 18+
- - npm 9+
+ - Node.js 20+
+ - npm 11+
 
 ### Maintenance des données d'action
  - [`packages\utils\src\types\craftactions.ts`](../packages/utils/src/types/craftactions.ts)

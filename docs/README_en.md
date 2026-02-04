@@ -101,8 +101,8 @@ The package includes full TypeScript support. Key types include:
 ## Development & Contribution
 
 ### Environment
- - Node.js 18+
- - npm 9+
+ - Node.js 20+
+ - npm 11+
 
 ### Maintaining Action Data
  - [`packages\utils\src\types\craftactions.ts`](../packages/utils/src/types/craftactions.ts)

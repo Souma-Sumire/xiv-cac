@@ -101,8 +101,8 @@ try {
 ## 開発と貢献
 
 ### 動作環境
- - Node.js 18+
- - npm 9+
+ - Node.js 20+
+ - npm 11+
 
 ### アクションデータのメンテナンス
  - [`packages\utils\src\types\craftactions.ts`](../packages/utils/src/types/craftactions.ts)

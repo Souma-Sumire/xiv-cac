@@ -101,8 +101,8 @@ try {
 ## 開發與貢獻
 
 ### 運行環境
- - Node.js 18+
- - npm 9+
+ - Node.js 20+
+ - npm 11+
 
 ### 維護技能數據
  - [`packages\utils\src\types\craftactions.ts`](../packages/utils/src/types/craftactions.ts)

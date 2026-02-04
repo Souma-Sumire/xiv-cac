@@ -101,8 +101,8 @@ try {
 ## 개발 및 기여
 
 ### 실행 환경
- - Node.js 18+
- - npm 9+
+ - Node.js 20+
+ - npm 11+
 
 ### 기술 데이터 유지보수
  - [`packages\utils\src\types\craftactions.ts`](../packages/utils/src/types/craftactions.ts)
